@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "postcss resources/css/expandable-table.css -o resources/dist/expandable-table.css && cp resources/js/expandable-table.js resources/dist/expandable-table.js",
+        "dev": "postcss resources/css/expandable-table.css -o resources/dist/expandable-table.css --watch"
+    },
+    "devDependencies": {
+        "cssnano": "^6.0.1",
+        "postcss": "^8.4.27",
+        "postcss-cli": "^10.1.0",
+        "postcss-nesting": "^13.0.0"
+    }
+}

@@ -1,0 +1,53 @@
+.expandable-table-detail {
+    padding: 1rem 1.5rem;
+    background-color: var(--color-gray-50);
+    border-top: 1px solid var(--color-gray-200);
+    border-bottom: 1px solid var(--color-gray-200);
+
+    & .fi-ta-wrp {
+        border-radius: 0.5rem;
+        box-shadow: none;
+        border: 1px solid var(--color-gray-200);
+    }
+}
+
+.dark .expandable-table-detail {
+    background-color: var(--color-gray-900);
+    border-color: var(--color-gray-700);
+
+    & .fi-ta-wrp {
+        border-color: var(--color-gray-700);
+    }
+}
+
+.expandable-row-container td {
+    padding: 0 !important;
+}
+
+/* Expand action button — CSS-driven +/− toggle, no Alpine dependency per element */
+.fi-expand-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    user-select: none;
+}
+
+.fi-expand-btn svg {
+    display: none;
+}
+
+.fi-expand-btn::before {
+    content: '+';
+}
+
+.fi-expand-btn[data-expanded="true"]::before {
+    content: '−';
+}
+
+.dark .fi-expand-btn {
+    color: var(--color-gray-400);
+}
+
+.dark .fi-expand-btn:hover {
+    color: var(--color-gray-300);
+}
