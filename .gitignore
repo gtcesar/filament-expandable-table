@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/.phpunit.cache/
+/.pest/
+/coverage/
+.env
+composer.lock
+package-lock.json
+*.log

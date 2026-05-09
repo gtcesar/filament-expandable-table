@@ -21,7 +21,7 @@ round-trip ao servidor para abrir/fechar linhas.
 ## Instalação
 
 ```bash
-composer require tibras/filament-expandable-table
+composer require gtcesar/filament-expandable-table
 php artisan filament:assets
 ```
 

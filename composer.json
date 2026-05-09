@@ -1,9 +1,9 @@
 {
-    "name": "tibras/filament-expandable-table",
+    "name": "gtcesar/filament-expandable-table",
     "description": "Expandable master-detail rows with nested Filament tables",
     "type": "library",
     "license": "MIT",
-    "authors": [{ "name": "TIBRAS", "email": "contato@tibras.com.br" }],
+    "authors": [{ "name": "Augusto César", "email": "costamarques@gmail.com" }],
     "require": {
         "php": "^8.3",
         "filament/filament": "^5.0",
