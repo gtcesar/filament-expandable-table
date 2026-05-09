@@ -25,6 +25,8 @@ composer require gtcesar/filament-expandable-table
 php artisan filament:assets
 ```
 
+> **Nenhuma configuração adicional necessária.** O pacote usa o auto-discovery do Laravel — o `ServiceProvider` é registrado automaticamente. Não é preciso adicionar nada no `PanelProvider`.
+
 ## Uso
 
 ### 1. Criar a classe de sub-table
@@ -168,4 +170,4 @@ Configure tudo via fluent API do Filament — `->query()`, `->columns()`,
 
 ## Licença
 
-MIT — TIBRAS
+MIT — [gtcesar](https://github.com/gtcesar)
